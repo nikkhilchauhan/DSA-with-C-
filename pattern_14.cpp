@@ -4,7 +4,6 @@ using namespace std;
 int main(){
     int n;
     int i = 1;
-    int count = 0;
     cin >> n;
     while (i<=n)
     {
@@ -13,7 +12,6 @@ int main(){
         {
             char ch = 'A' +n-i+j-1;
             cout <<ch << " ";
-            count++;
             j++;
         } 
         cout << endl;

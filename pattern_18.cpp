@@ -7,24 +7,25 @@ int main(){
     cin >> n;
     while (i<=n)
     {
-        int space = n - i;
+        int space = i-1;
         while (space)
         {
             cout << " ";
             space--;
-        } 
+        }
         int j = 1;
-        while(j<=i){
-          cout<<"*";
+        while (j<=n-i+1)
+        {
+          cout << j+i-1;
           j++;
         }
-        cout << endl;
+        cout <<endl;
         i++;
     }
 }
 
-//     *
-//    **
-//   ***
-//  ****
-// *****
+// 12345
+//  2345
+//   345
+//    45
+//     5
