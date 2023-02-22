@@ -8,8 +8,10 @@ int main(){
     while (i<=n)
     {
         int j = 1;
-        while(j<=i){
-            cout <<i+j-1 <<" ";
+        while (j <= n)
+        {
+            char ch = 'A' + i+j-2;
+            cout <<ch << " ";
             j++;
         }
         cout << endl;
@@ -17,8 +19,8 @@ int main(){
     }
 }
 
-// 1
-// 23
-// 345
-// 4567
-// 56789
+// A B C D E 
+// B C D E F 
+// C D E F G 
+// D E F G H 
+// E F G H I 

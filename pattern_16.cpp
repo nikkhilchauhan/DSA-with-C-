@@ -8,17 +8,18 @@ int main(){
     while (i<=n)
     {
         int j = 1;
-        while(j<=i){
-            cout <<i+j-1 <<" ";
+        while (j<=n-i+1)
+        {
+            cout << "*";
             j++;
-        }
-        cout << endl;
+        } 
+        cout <<endl;
         i++;
     }
 }
 
-// 1
-// 23
-// 345
-// 4567
-// 56789
+// *****
+// ****
+// ***
+// **
+// *
